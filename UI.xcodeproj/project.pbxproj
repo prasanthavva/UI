@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7305F5D0203B7AB900B60C64 /* 12w__14w__17w__20w_Image_2-21b19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7305F5CF203B7AB900B60C64 /* 12w__14w__17w__20w_Image_2-21b19.jpg */; };
 		7378D770203B5C3700D01115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7378D76F203B5C3700D01115 /* AppDelegate.m */; };
 		7378D773203B5C3700D01115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7378D772203B5C3700D01115 /* ViewController.m */; };
 		7378D776203B5C3800D01115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7378D774203B5C3800D01115 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7305F5CF203B7AB900B60C64 /* 12w__14w__17w__20w_Image_2-21b19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "12w__14w__17w__20w_Image_2-21b19.jpg"; path = "Images/12w__14w__17w__20w_Image_2-21b19.jpg"; sourceTree = SOURCE_ROOT; };
 		7378D76B203B5C3700D01115 /* UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7378D76E203B5C3700D01115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7378D76F203B5C3700D01115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,15 +103,16 @@
 		7378D76D203B5C3700D01115 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7305F5CF203B7AB900B60C64 /* 12w__14w__17w__20w_Image_2-21b19.jpg */,
 				7378D76E203B5C3700D01115 /* AppDelegate.h */,
 				7378D76F203B5C3700D01115 /* AppDelegate.m */,
 				7378D771203B5C3700D01115 /* ViewController.h */,
 				7378D772203B5C3700D01115 /* ViewController.m */,
 				7378D774203B5C3800D01115 /* Main.storyboard */,
-				7378D777203B5C3800D01115 /* Assets.xcassets */,
 				7378D779203B5C3800D01115 /* LaunchScreen.storyboard */,
 				7378D77C203B5C3800D01115 /* Info.plist */,
 				7378D77D203B5C3800D01115 /* main.m */,
+				7378D777203B5C3800D01115 /* Assets.xcassets */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				7378D77B203B5C3800D01115 /* LaunchScreen.storyboard in Resources */,
 				7378D778203B5C3800D01115 /* Assets.xcassets in Resources */,
+				7305F5D0203B7AB900B60C64 /* 12w__14w__17w__20w_Image_2-21b19.jpg in Resources */,
 				7378D776203B5C3800D01115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC28LEG9DG;
 				INFOPLIST_FILE = UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UHCL.UI;
@@ -444,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC28LEG9DG;
 				INFOPLIST_FILE = UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UHCL.UI;
